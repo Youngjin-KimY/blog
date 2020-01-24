@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# MyInfo
+Software engineer - server-side framework enginner
 
 
-[jekyll-organization]: https://github.com/jekyll
+### Interesting thing in CS
+Kotlin, springboot, vuejs, Docker, K8
+
+
+### Major 
+1. Computer Science(2017.3 ~ 2019.8, transfer 1st major)
+2. Economic and Chinese literature(2009.3 ~ 2017.2, double major)
