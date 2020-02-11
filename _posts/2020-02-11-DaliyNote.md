@@ -12,4 +12,4 @@ categories : DailyNote
     - black box = integrated test
 
 3. design pattern
-    - singleton
+    - singleton 
