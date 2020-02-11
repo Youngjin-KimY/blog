@@ -12,4 +12,6 @@ categories : DailyNote
     - black box = integrated test
 
 3. design pattern
-    - singleton 
+    - singleton : make only once
+            usage : like DBCP, using number of common object, easy to share data(thread pool,cache,user config,reg data, log)
+    + Is DBCP(Database Connection pool) object??
