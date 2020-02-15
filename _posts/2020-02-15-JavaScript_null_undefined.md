@@ -15,7 +15,7 @@ in this time, I have question about `undefined` and like me, junior confuses `nu
 
 # what is undefined ??<br>
 1. primitive type, so `undefined` can be assigned
-2. in the condition, it is same with `false`
+2. in the condition, it is same with `false`<br>
 ```
 var input = undefined
 
@@ -26,6 +26,7 @@ else{
     console.log('hi')
 }
 ```
+
 console print 'undefined???'
 
 # what is null ??<br>
@@ -34,11 +35,14 @@ console print 'undefined???'
 
 
 # funny thing, you can use like this
+
 ```
 var thisIsTrue = undefined == null // true
 var butThisIsFalse = undefied === null // false
 ```
+
 - we can guess that those are difference type.
+
 ```
 typeof(null) // object
 typeof(undefined) // undefined
@@ -48,6 +52,3 @@ typeof(undefined) // undefined
 
 `null` doesn't have value.<br>
 `undefined` doesn't have type and value.
-
-
-
