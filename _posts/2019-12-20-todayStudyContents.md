@@ -1,5 +1,5 @@
 ---
-title : todayStudy
+title : 2019-12-20-DailyNote in workspace
 date: 2019-12-20 21:39:00
 comment : true
 categories : life
