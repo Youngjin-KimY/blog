@@ -16,6 +16,8 @@ in this time, I have question about `undefined` and like me, junior confuses `nu
 # what is undefined ??<br>
 1. primitive type, so `undefined` can be assigned
 2. in the condition, it is same with `false`<br>
+
+
 ```
 var input = undefined
 
