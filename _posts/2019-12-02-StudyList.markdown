@@ -1,8 +1,10 @@
 ---
-title: "Study List"
-date: 2019-12-02 15:03:00
-comment : true
-categories: Tech
+title: "StudyList"
+categories:
+    - Web
+tags:
+    - StudyList
+last_modified_at: 2019-12-02 15:03:00
 ---
 
 1. Design pattern ( builder)

@@ -1,8 +1,11 @@
 ---
-title : Developing slackbot
-date: 2020-01-13 21:00:00
-comment : true
-categories : Slack 
+title: "Growing Slackbot"
+last_modified_at: 2020-01-13 21:00:00
+categories:
+    - Dev
+tags:
+    - Slack
+    - Bot
 ---
 
 # Deveoloping SlackBot

@@ -1,8 +1,10 @@
 ---
-title : Null and Undefined in JavaScript
-date: 2020-02-15 22:00:00
-comment : true
-categories : javascript
+title: "Null and Undefined in JavaScript"
+last_modified_at: 2020-02-15 22:00:00
+categories:
+    - Web
+tags:
+    - banila Js
 ---
 
 # Null and Undefined in JavaScript
