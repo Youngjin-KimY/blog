@@ -20,7 +20,7 @@ last_modified_at: 2020-07-26 23:00:00
 - In C#, writing interface name next to class name with ":".
     - ex) ```public Soccer : Sports```
 - Only declare method with parameter, not declare variable and cannot write complete method.
-- JavaCode<br>
+- JavaCode<br><br>
 ```
 public class main{
     public static void main(String[] args){
@@ -54,7 +54,7 @@ public class Dog implements Animal {
 - In C#, writing Abstract name next to class name with ":".
     - ex) ```public Soccer : Sports```
 - being able to declare method using "abstract class" keyword, complete method, variable.
-- JavaCode<br>
+- JavaCode<br><br>
 ```
 public class main{
     public static void main(String[] args){
