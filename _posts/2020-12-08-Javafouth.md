@@ -1,0 +1,196 @@
+---
+title: "Java 4주차 과제"
+categories:
+    - Java
+tags:
+    - if-else
+    - switch
+    - while
+    - do-while
+    - for
+    - foreach
+last_modified_at: 2020-11-15 23:00:00
+---
+# *4주차 과제*
+
+***전체적으로는 java in Nutshell을 참고합니다.***
+### 공부내용  <br>
+
+1. 선택문
+    - if/else<br>
+        1) true이면 if 아래의 statement실행, false이면 else 아래의 statement 실행<br>
+        2) if의 조건절에는 Wrapper type의 Boolean도 가능한데, 이 경우에는 자동으로 Wrapping이 unboxin된다.
+    - if/else-if/else<br>
+        1) true인 조건아래의 statmenet가 실행됨
+    - switch<br>
+        1) if/else-if/else와 꽤나 비슷하다고 생각할 수 있으나, 가독성이 뛰어나다.<br>
+        2) 각 케이스에서 break를 넣지 않으면 계속 break가 있는곳까지 내려간다는 특징이 있다.<br>
+        3) expression은 int, short, char, byte(이들의 wrapper type), String, enum까지 가능하다.
+        ```
+            int a = 1;
+            switch(a){
+                case 1:
+                    System.out.println(1);
+                    break; // 이게 없으면 계속 아래로 내려간다.
+                case 2:
+                    System.out.println(2);
+                    break;
+                default: // 가장 아래에 써준다. 모든 케이스에서 실패를 한경우다.
+                    break;
+            }
+        ```
+
+2. 반복문
+    - while
+    ```
+        //format
+        while(expression) statement
+    ```
+    expression이 true인 동안 statement가 실행되고, false가 되면 while문을 빠져나온다.
+    - do while
+    ```
+        //format
+        do {statement} while (expression);
+
+        int count = 0;
+        do {
+            System.out.println(count);
+            count++;
+        } while(count < 10);
+    ```
+    주의 :
+    1) 대부분의 내용은 while과 다르지 않은데, expression이 아래에 있기 대문에, 최소 1번은 실행된다.
+    2) 마지막에 ";"을 빼먹으면 안된다.
+    - for
+    ```
+        //format
+        for(initialize; test; update) {statement}
+        
+        for(int i=0;i<10;i++){
+            System.out.println(i); //0,1,2,3,4,5,6,7,8,9
+        }
+    ```
+    다양하게 사용할 수 있는 방법 :<br>
+    1) 변수를 여러개 사용가능
+    ```
+        for(int i=0, j=0;i<10;i++, j+=2)
+        {
+            System.out.println(j) // 2,4,6,8,10,12,14,16,18
+        }
+    ```
+    2) 반드시 숫자변수만 쓰지 않아도 됨
+    ```
+        for(Node n = listHead; n!= null; n=n.nextNode()) {
+            // do something
+        }
+    ```
+    3) 가운데 제한조건(test)부분을 생략하고 infinite한 루프로 만들 수 있다.
+    ```
+        /// random 정수를 만듬(0~10000) 
+        /// 만들어진 정수까지 for문이 돌아간다.
+        var limit =(int) (Math.random()*10000);
+        for(int i=0;;i++){
+            System.out.println(i);
+            if(limit == i) break;
+        }
+    ```
+    - foreach : collection내의 object들을 looping할 수 있게 해준다.
+    ```
+        //format
+        for(declaration : expression) statement
+
+        // keySet에서 key들을 iterator하는 코드
+        HashMap<String,Integer> map = new HashMap<>();
+        map.put("one",1);
+        map.put("two",2);
+        map.put("three",3);
+        for(String i : map.keySet())
+        {
+            System.out.println(map.get(i));
+        }
+    ```
+    - break && continue
+        - break는 loop를 끝내는 keywork
+        - continue는 loop scope내에서 continue 아래를 실행하지 않고 loop를 돈다.
+        ```
+            /// continue 예시
+            for(int i=0;i<20;i++)
+            {
+                if(i%2==0)
+                {
+                    continue;
+                }
+                System.out.println(i); //1,3,5,7,9,11,13,15,17,19
+            }
+        ```
+
+3. Junit5
+    - 자바전용 테스팅 framework
+    - class path에 junit5 추가
+    - 상단에 다음과 같은 package를 import
+    ```
+        import static org.junit.jupiter.api.Assertions.assertEquals;
+        import org.junit.jupiter.api.Test;
+    ```
+    - @Test를 method달면 테스트를 시행하는 함수
+    ```
+        // 아래 예시는 공식 사이트 코드를 보고 간단히 만든 테스트
+        @DisplayName("A special test case") // @DisplayName 테스트 이름
+        public class test {
+
+            private Calculator calculator = new Calculator();
+
+            @Test // @Test를 달면 테스트를 함
+            public void test1()
+            {
+                assertEquals(calculator.add(1,2),3);
+            }
+
+            @Test
+            public void test2()
+            {
+                assertEquals(calculator.minus(2,1),1);
+                assertEquals(calculator.minus(1,2),-1);
+            }
+
+            @Test
+            public void test3()
+            {
+                assertEquals(calculator.multiply(1,2,3,4),24);
+                assertEquals(calculator.multiply(1,1,1,1,1,1,1,1,1,1,1),1);
+            }
+
+            @Disabled // 테스트에 참여하지 않음
+            public void test4()
+            {
+                assertEquals(calculator.multiply(1,1,1,1,1),2);
+            }
+
+            @Test
+            public void timeoutNotExceeded()
+            {
+                assertTimeout(Duration.ofSeconds(5), () ->{
+                    Thread.sleep(6000); // 6초동안 멈춰있는데, 현재 5초넘어가면 에러
+                }); 
+            } 
+        }
+
+
+        // 아래는 lombok과 lamdb를 이용한 계산기
+        import java.util.function.BinaryOperator;
+
+        @NoArgsConstructor
+        public class Calculator {
+            public long add(int a, int b)
+            {
+                BinaryOperator<Integer> fff = (c,d) -> c+d;
+                return fff.apply(a,b);
+            }
+
+            public long minus(int a, int b)
+            {
+                BinaryOperator<Integer> fff = (c,d) -> c-d;
+                return fff.apply(a,b);
+            }
+        }
+    ```
