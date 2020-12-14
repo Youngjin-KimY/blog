@@ -1,5 +1,5 @@
 ---
-title: "[problem solving]"
+title: "[problem solving] PowerOfThree"
 categories:
     - ps
 tags:
