@@ -11,11 +11,11 @@ last_modified_at: 2020-12-14 23:00:00
 ***usually I solve problems in leetcode***
 ### powerOfThree  <br>
 
-link : https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/745/
+problem link : https://leetcode.com/explore/interview/card/top-interview-questions-easy/102/math/745/
 
 1. problem definition
     - Given an integer n, return true if it is a power of three. Otherwise, return false. An integer n is a power of three, if there exists an integer x such that n == 3x. <br>
-    ***Constraints:*** -2<sup>31<sup> <= n <= 2<sup>31</sup> - 1
+    ***Constraints:*** -2<sup>31</sup> <= n <= 2<sup>31</sup> - 1
     ```
         input : 27
         output : true
