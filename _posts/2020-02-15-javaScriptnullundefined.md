@@ -1,5 +1,5 @@
 ---
-title: "Null and Undefined in JavaScript"
+title: "[Javascript] Null and Undefined in JavaScript"
 last_modified_at: 2020-02-15 22:00:00
 categories:
     - Web

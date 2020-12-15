@@ -1,9 +1,9 @@
 ---
-title: "CleanCode(깨끗한 코드)"
+title: "[CleanCode] CleanCode(깨끗한 코드)"
 categories:
-    - CleanCode
+    - cleanCode
 tags:
-    - CleanCode
+    - cleanCode
 last_modified_at: 2020-12-02 23:00:00
 ---
 # *CleanCode*

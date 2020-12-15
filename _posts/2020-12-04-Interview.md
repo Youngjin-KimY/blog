@@ -1,9 +1,9 @@
 ---
-title: "Interview"
+title: "[Interview] Interview experience"
 categories:
-    - Interview
+    - interview
 tags:
-    - Interview
+    - interview
 last_modified_at: 2020-12-02 23:00:00
 ---
 # *Interview*

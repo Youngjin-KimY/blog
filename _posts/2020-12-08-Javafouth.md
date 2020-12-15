@@ -1,5 +1,5 @@
 ---
-title: "Java 4주차 과제"
+title: "[Java] Java 4주차 과제"
 categories:
     - Java
 tags:
