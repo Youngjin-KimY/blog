@@ -1,5 +1,5 @@
 ---
-title: "[postgresql] intro setting with spring boot JPA"
+title: "[Postgresql] Intro postresql settings with spring boot JPA"
 categories:
     - sql
 tags:

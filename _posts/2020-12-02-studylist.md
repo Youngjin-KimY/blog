@@ -1,9 +1,9 @@
 ---
-title: "StudyList"
+title: "[Study] StudyList"
 categories:
-    - Web
+    - web
 tags:
-    - StudyList
+    - studyList
 last_modified_at: 2020-12-08 23:00:00
 ---
 
