@@ -133,6 +133,7 @@ last_modified_at: 2020-11-15 23:00:00
         import org.junit.jupiter.api.Test;
     ```
     - @Test를 method달면 테스트를 시행하는 함수
+    - **public**은 필수가 아님
     ```
         // 아래 예시는 공식 사이트 코드를 보고 간단히 만든 테스트
         @DisplayName("A special test case") // @DisplayName 테스트 이름
