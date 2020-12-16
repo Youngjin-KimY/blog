@@ -45,7 +45,7 @@ last_modified_at: 2020-12-16 23:00:00
                 }
             }
         ```
-        - 위의 코드는 다 붙여놔서 한눈에 안들온다.
+        - 위의 코드는 다 붙여놔서 한눈에 안들어 온다.
         ```
             import lombok.NoArgsConstructor;
             import java.util.function.BinaryOperator;
