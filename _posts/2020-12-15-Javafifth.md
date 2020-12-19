@@ -20,9 +20,23 @@ last_modified_at: 2020-12-15 23:00:00
         - 한글도 가능하다.
         - public class는 파일 이름도 동일해야한다. public class Student -> Student.java
 2. 객체 만드는 방법 (new 키워드 이해하기)
-    - new 연산자를 이용해서 생성하는데, heap메모리 영역에 생성된다.
-    - new class명의 return은 heap영역의 주소
+    - new 연산자는 heap영역에 메모리를 할당하고, 할당한 메모리의 주소를 반환하는 연산자이다.
+    - new 연산자의 argument는 constructor
+    
 3. 메소드 정의하는 방법
+    - 기본형식
+    ```
+    한정자  리턴 함수명 타입     파라메터
+    public int cal (int... args)
+    {
+        int ret = 0;
+        for(int i=0;i<args.length;i++){
+            ret+=args[i];
+        }
+        리턴 키워드  리턴 값
+        return    ret;
+    }
+    ```
     - 접근 한정자
     
     |한정자|클래스내부|동일패키지|같은 패키지의 하위클래스(상속)|다른 패키지의 하위클래스(상속)|앞의3가지를제외한외부접근|
@@ -32,6 +46,7 @@ last_modified_at: 2020-12-15 23:00:00
     |없음(default)|O|O|O|X|X|
     |private|O|X|X|X|X| <- get,set를 이용
 4. 생성자 정의하는 방법
+    - new 연산자로 생성된 객체의 초기화를 담당한다.
     - public 생성자
         - 객체 생성시 초기화를 담당한다.
         - public + class 명 + param
@@ -60,3 +75,107 @@ last_modified_at: 2020-12-15 23:00:00
             - ex ) Math 클래스가 대표적
         - method && field를 static으로 선언하여, 접근할 수 있도록 함
 5. this 키워드 이해하기
+    - 클래스 멤버변수를 참조함
+    - 다른 contructor를 참조함(첫줄에 써야함)
+    ```
+        public static void main(String[] args){
+            exclass ex = new exclass()
+            // Hello java !!
+            // default block
+        }
+
+        public class exclass {
+            public exclass() {
+                this("java"); // 이건 반드시 첫줄
+                System.out.println("default block");
+            }
+
+            public exclass(String name)
+            {
+                System.out.println("Hello "+name+" !!");
+            }
+        }
+    ```
+
+6. nested Class
+    - static nested class
+    - inner class
+    - local class
+        - method 내부에 선언된 클래스
+        ```
+        public class app {
+            public static void main(String[] args) {
+                printName("messi",21200);
+            }
+
+            public static void printName(String name, int id) {
+                
+                // student class는 printName안에서만 사용가능
+                class student {
+                    public String name;
+                    public int id;
+                    public student()
+                    {
+                        this.name = name;
+                        this.id = id;
+                    }
+
+                    @Override
+                    public String toString() {
+                        return "student{" +
+                                "name='" + name + '\'' +
+                                ", id=" + id +
+                                '}';
+                    }
+                }
+                student st = new student();
+                System.out.println(st.toString());
+            }
+        }
+        ```
+    - anonymous class
+        - local class와 거의 같지만 이름이 존재하지 않음
+        - interface 혹은 상속받을 class가 필요
+        ```
+        public class app {
+            public static void main(String[] args) {
+                printName("messi",21200);
+            }
+            
+            //익명 클래스 생성을 위한 interface
+            //함수형 인터페이스 
+            //abstract method가 하나 필요하다.
+            //default method는 직접 구현을 해야한다.
+            @FunctionalInterface
+            interface student{
+                void test();
+                default void print(){
+                    System.out.println("default test");
+                }
+            }
+
+            public static void printName(String name, int id) {
+
+                student st = new student() {
+                    // 상속받은 interface를 구현함으로써 익명클래스 완성
+                    @Override
+                    public void test() {
+                        System.out.println("anonymous test");
+                    }
+                };
+
+                // default method
+                st.print();
+                // 구현한 method
+                st.test();
+                System.out.println(name+" "+id);
+            }
+        }
+        ```
+7. plus
+    - String str = "a"  vs String str = new String("a")
+        - literal에 바로 할당하는게 좋다고 배웠었는데 이번에 공부하면서 다시 생각해볼만한 내용
+        - 참조 : https://catch-me-java.tistory.com/38
+    - reflection APi
+        - 클래스정보를 런타임시 알 수 있게 해줌
+        - 참조 : https://pocada.medium.com/java-reflection-api-1-61c3fc957e6d
