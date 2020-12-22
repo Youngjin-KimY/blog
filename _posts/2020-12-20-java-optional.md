@@ -45,4 +45,4 @@ last_modified_at: 2020-12-20 23:00:00
         - Optional.filter()
     - For Converting
         - map(Function)
-        - flatMap(function) : Optional<\Optional\<T\>\>
+        - flatMap(function) : Optional<Optional\<T\>\>
