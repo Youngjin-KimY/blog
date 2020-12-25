@@ -21,6 +21,8 @@ last_modified_at: 2020-12-22 23:00:00
     - ```super()``` can be used in a contructor.
     - ``` super``` should be first statement in constructor.
     ```
+    /// 불가능한 케이스
+    /// 부모 클래스
     class classBasic{
         String name;
         String no;
