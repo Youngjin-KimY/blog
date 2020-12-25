@@ -9,6 +9,8 @@ last_modified_at: 2020-12-08 23:00:00
 
 ***things to study***
 
+- blocking call in Java
+    - concurrent programming - submit
 - Service Discovery
 - Service mesh:
 - Spring boot
