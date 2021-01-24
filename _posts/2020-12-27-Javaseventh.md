@@ -21,6 +21,8 @@ last_modified_at: 2020-12-27 23:00:00
         - 클래스이름의 중복된 이름의 충돌을 막아준다.
 2. import 키워드
 3. CLASSPATH
+    - JVM이 .class파일을 실행할 때, class파일을 찾는 기준이 되는 경로를 말한다.
+    - 기본적으로 현재 class파일이 있는 폴더를 기준으로 검색한다.
 4. CLASSPATH 환경변수
 5. -classpath 옵션
 6. 접근지시자
