@@ -22,7 +22,7 @@ tags:
 
 2. 추가적으로 확인할 내용
 
-   아래 링크에서 "Numbers Everyone Should know"부분을 보면 알수 있는내용 (구글 제프딘이 말하는 알아야 하는 숫자)[http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html]
+   아래 링크에서 "Numbers Everyone Should know"부분을 보면 알수 있는내용 [구글 제프딘이 말하는 알아야 하는 숫자](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
 
    1. 메모리는 빠르지만 디스크는 아직도 느리다.(대략 120배??)
    2. 디스크 탐색은 피하라.
