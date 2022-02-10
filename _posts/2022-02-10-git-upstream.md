@@ -7,8 +7,6 @@ tags:
   - upstream
 ---
 
-# git upstream
-
 
 
 혼자서 작업을 하다보면 심심치 않게 보는 `git upstream` 어쩌구 저쩌구... 맨날 이게 뭐였더라 찾아보고 다시 까먹고 반복한다.
@@ -35,13 +33,13 @@ tags:
 
 그림으로보면 아래와 같다. upstream에서 fork를 떠서 origin에 작업을 하는것이다.
 
-<img src="/Users/timyjkim/Library/Application Support/typora-user-images/image-20220210122316921.png" alt="image-20220210122316921" style="zoom: 50%;" />
+<img src="/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/image-20220210122316921.png" alt="image-20220210122316921" style="zoom: 67%;" />
 
 
 
 근데 나는 대부분 아래와 같이 일을 했기에 upstream을 애매하게 알고 있던 것이다.
 
-<img src="/Users/timyjkim/Library/Application Support/typora-user-images/image-20220210122430087.png" alt="image-20220210122430087" style="zoom:67%;" />
+<img src="/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/image-20220210122430087.png" alt="image-20220210122430087" style="zoom:67%;" />
 
 
 

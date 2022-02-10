@@ -7,8 +7,6 @@ tags:
   - String
 ---
 
-# String, StringBuffer, StringBuilder
-
 
 
 자바에서는 문자열을 쉽게 다룰 수 있게 해주는 클래스가 제목같이 3가지가 있다.
