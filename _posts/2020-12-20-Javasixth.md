@@ -7,8 +7,6 @@ tags:
     - Dynamic method dispatch
 last_modified_at: 2020-12-22 23:00:00
 ---
-# *6주차 과제*
-
 ***전체적으로는 java in Nutshell을 참고합니다.***
 ### 공부내용  <br>
 
@@ -28,22 +26,22 @@ last_modified_at: 2020-12-22 23:00:00
     class classBasic{
         String name;
         String no;
-
+    
         public classBasic() {
         }
-
+    
         public classBasic(String name, String no) {
             this.name = name;
             this.no = no;
         }
     }
-
+    
     // sub class
     class onlineClass extends classBasic{
         public onlineClass() {
             super("hi","01");
         }
-
+    
         // 이런코드는 불가하다. this(), super()둘다 맨위로 와야하기 떄문이다.
         public onlineClass(String name, String no) {
             this();
@@ -62,15 +60,15 @@ last_modified_at: 2020-12-22 23:00:00
         private String name;
         private int age;
         private char sex;
-
+    
         public man(String name, int age, char sex) {
             this.name = name;
             this.age = age;
             this.sex = sex;
         }
-
+    
         ///..... getter and setter are omitted.......
-
+    
         public void isAdult() {
             boolean ret = false;
             if (this.age >= 20) {
@@ -82,12 +80,12 @@ last_modified_at: 2020-12-22 23:00:00
             }
         }
     }
-
+    
     public class student extends man{
         public student(String name, int age, char sex) {
             super(name, age, sex);
         }
-
+    
         // 아래 코드는 overriding
         // 선언부는 super class와 동일하다. 다만 내용이 다르다.
         @Override
@@ -110,33 +108,33 @@ last_modified_at: 2020-12-22 23:00:00
     // super class
     public abstract class animal {
         public boolean isPredator;
-
+    
         public animal(boolean isPredator) {
             this.isPredator = isPredator;
         }
-
+    
         boolean isPredator(){
             return this.isPredator;
         }
-
+    
         // 이 함수를 호출하는 경우에 실제 구현체에 따라서
         // 다른 결과가 나온다.
         abstract void printKind();
     }
-
+    
     // two sub classes
     class TRino extends animal{
         // ... omitted ...
-
+    
         @Override
         void printKind() {
             System.out.println(this.kind + ": " + "hi TRino");
         }
     }
-
+    
     class Cow extends animal{
         // ... omitted ...
-
+    
         @Override
         void printKind() {
             System.out.println(this.kind + ": " + " hi cow");
@@ -153,7 +151,7 @@ last_modified_at: 2020-12-22 23:00:00
             obj.printKind();
         }
     }
-
+    
     public class App{
         public static void main(String[] args){
             animal t = new TRino("dino",true);
@@ -173,18 +171,18 @@ last_modified_at: 2020-12-22 23:00:00
     ```
      public abstract class animal {
         public boolean isPredator;
-
+    
         public animal(boolean isPredator) {
             this.isPredator = isPredator;
         }
-
+    
         boolean isPredator(){
             return this.isPredator;
         }
-
+    
         abstract void printKind();
     }
-
+    
     class TRino extends animal{
         public String kind;
         
@@ -192,7 +190,7 @@ last_modified_at: 2020-12-22 23:00:00
             super(isPredator);    
             this.kind = kind;
         }
-
+    
         @Override
         void printKind() {
             System.out.println(this.kind);

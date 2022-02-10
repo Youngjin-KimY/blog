@@ -6,8 +6,6 @@ tags:
     - math
 last_modified_at: 2020-12-16 23:00:00
 ---
-# *Problem solving*
-
 ***usually I solve problems in leetcode***
 ### Roman to Integer  <br>
 

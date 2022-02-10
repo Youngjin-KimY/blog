@@ -7,8 +7,6 @@ tags:
   - architecture
 ---
 
-# *사용자 수에 따른 규모 확장성*
-
 1. Web layer should be stateless
    1. 특정 사용자가 특정 서버만 들어가는 상황을 배제
 2. All layers are recommended as redundacy(다중화)
