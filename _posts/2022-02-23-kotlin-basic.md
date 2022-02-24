@@ -7,7 +7,7 @@ tags:
   - Lamdba and Null
 ---
 
-### Alarm!!! this is not informatic article, just for me. it's not kindly letting you know about Kotlin.
+### Alarm!!! this is not informatic article, just for me. This article is not kindly letting you know about Kotlin.
 
 
 
@@ -24,4 +24,3 @@ If some one asks me "what is advantage of Kotlin", although I am junior and abou
 2. Lamdba
    1. `let`
    2. 
-
