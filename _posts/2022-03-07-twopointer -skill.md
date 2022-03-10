@@ -7,7 +7,7 @@ tags:
   - flip card
 ---
 
-
+## ***[march-week2] filp card***
 
 1. how to get `gcd`, `lcm`
 
@@ -41,6 +41,6 @@ tags:
         str?.length
         ```
       </details>
-
+      
       
 
