@@ -7,6 +7,8 @@ tags:
   - effective Kotlin
 ---
 
+## ***[item 1] 가변성 제한***
+
 - var보다는 val을 사용하는 것이 좋다.
 
 - mutable 프로퍼티 보다는 immutable 프로퍼티를 사용하는 것이 좋다.
