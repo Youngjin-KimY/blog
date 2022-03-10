@@ -1,5 +1,5 @@
 ---
-title: [item 1] 가변성 제한
+title: item-1 가변성 제한
 categories:
   - Kotlin
 

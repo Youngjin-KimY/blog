@@ -1,5 +1,5 @@
 ---
-title: [march-week2] flip card
+title: march-week2 flip card
 categories:
   - flip card
 
