@@ -33,13 +33,13 @@ tags:
 
 그림으로보면 아래와 같다. upstream에서 fork를 떠서 origin에 작업을 하는것이다.
 
-<img src="/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/image-20220210122316921.png" alt="image-20220210122316921" style="zoom: 67%;" />
+<img src="https://github.com/Youngjin-KimY/Youngjin-KimY.github.io/blob/main/assets/images/image-20220210122316921.png?raw=true" alt="image-20220210122316921" style="zoom:" />
 
 
 
 근데 나는 대부분 아래와 같이 일을 했기에 upstream을 애매하게 알고 있던 것이다.
 
-<img src="/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/image-20220210122430087.png" alt="image-20220210122430087" style="zoom:67%;" />
+<img src="https://github.com/Youngjin-KimY/Youngjin-KimY.github.io/blob/main/assets/images/image-20220210122430087.png?raw=true" style="zoom:%;" />
 
 
 
