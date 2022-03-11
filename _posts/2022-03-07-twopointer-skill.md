@@ -1,0 +1,63 @@
+---
+title: march-week2 flip card
+categories:
+  - flip card
+
+tags:
+  - flip card
+---
+
+## ***[march-week2] filp card***
+
+1. how to get `gcd`, `lcm`
+
+   - using Euclidean algorithm
+      <details>
+        <summary>solution</summary>
+
+        ``` C++
+        class Solution {
+          public : 
+            int gcd(int a, int b) {
+              int t = 0;
+              while(b != 0) {
+                t = b;
+                b = a%b;
+                a = t;
+              }
+
+              return a
+            }
+
+            int lcm(int a, int b) {
+              return (a * b) / gcd(a, b);
+            }
+        }
+        ``` 
+
+      </details>
+
+2.  Elvis Operation
+    - using Elvis Operation return `str?.length`  if null then -1
+      <details>
+        <summary>Solution</summary>
+        
+        ```kotlin
+        val lenOfString = str?.length ?: -1
+        ```
+
+      </details>
+
+3. Safe Call
+   - Get string length using `safe Call` variable name is `str`
+      <details>
+        <summary>Solution</summary>
+        
+        ```kotlin
+        str?.length
+        ```
+        
+      </details>
+      
+      
+
