@@ -1,7 +1,7 @@
 ---
 title: String, StringBuffer, StringBuilder
 categories:
-  - JAVA
+  - Java
 
 tags:
   - String

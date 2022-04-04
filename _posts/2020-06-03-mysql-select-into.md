@@ -2,10 +2,10 @@
 title: "[Sql] SELECT * INTO"
 
 categories:
-    - sql
+    - Sql
 
 tags:
-    - mssql
+    - Mssql
 last_modified_at: 2020-06-03T12:15:00
 ---
 
@@ -23,5 +23,4 @@ after Searching and asking, I got solution, which is below query.<br>
 ***SELECT INTO #tmp FROM A <br>***
 
 the query create #tmp table with all row of A.
-
 

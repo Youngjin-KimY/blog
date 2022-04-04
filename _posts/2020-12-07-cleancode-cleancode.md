@@ -1,14 +1,14 @@
 ---
 title: "[CleanCode] CleanCode(깨끗한 코드)"
 categories:
-    - cleanCode
+    - CleanCode
 tags:
-    - cleanCode
+    - CleanCode
 last_modified_at: 2020-12-02 23:00:00
 ---
 # *CleanCode*
 
-#### CleanCode 후가입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
+#### CleanCode 후기입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
 ***깨끗한 코드란?***
 
 0. BadCode<br>

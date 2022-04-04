@@ -4,7 +4,7 @@ last_modified_at: 2020-02-11 20:48:00
 categories : 
     - Daily
 tags :
-    - workspace
+    - Workspace
 ---
 1. git commit rule
     - one commit = one deployment

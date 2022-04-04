@@ -4,7 +4,7 @@ categories:
   - architecture
 
 tags:
-  - dataSize
+  - datascale
 ---
 
 1. 2의 제곱으로 데이터 사이즈 확인하기

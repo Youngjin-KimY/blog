@@ -4,7 +4,6 @@ categories:
   - Dev
 tags:
   - Nomalization
-  - 정규화
 last_modified_at: 2020-07-29 23:00:00
 ---
 

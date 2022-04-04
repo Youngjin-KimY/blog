@@ -1,9 +1,9 @@
 ---
 title: "[Problem solving] PowerOfThree"
 categories:
-    - ps
+    - Ps
 tags:
-    - math
+    - Math
 last_modified_at: 2020-12-14 23:00:00
 ---
 # *Problem solving*
@@ -19,7 +19,7 @@ problem link : https://leetcode.com/explore/interview/card/top-interview-questio
     ```
         input : 27
         output : true
-
+    
         input : 45
         output: false
     ```
@@ -33,10 +33,10 @@ problem link : https://leetcode.com/explore/interview/card/top-interview-questio
         ```
             //대충 찍었는데, 3의 20승 정도 하면 2의 31승 -1보다 크지 않을까 생각했다.
             private boolean isCheck(int n){
-
+        
                 //음수는 3의 제곱수가 될수 없다.
                 if(n<=0) return false;
-
+        
                 long biggestPowerOfThreeMoreThanInt = 3*3*3*3*3*3*3*3*3*3*3*3*3*3*3*3*3*3*3;
                 if(biggestPowerOfThreeMoreThanInt % n == 0) return true;
                 return false;
