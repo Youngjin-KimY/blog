@@ -1,14 +1,14 @@
 ---
 title: "[CleanCode] Comment(주석)"
 categories:
-    - cleanCode
+    - CleanCode
 tags:
-    - comment
+    - Comment
 last_modified_at: 2020-12-15 23:00:00
 ---
 # *CleanCode, comment*
 
-#### CleanCode 후가입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
+#### CleanCode 후기입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
 ***주석을 잘 다는 방법은...?***
 
 1. intro
@@ -44,7 +44,7 @@ last_modified_at: 2020-12-15 23:00:00
         ```
             // 테스트중인 student인스턴스를 반환한다.
             public abstract Student studentInstance();
-
+        
             // kk::mm:ss EEE, MMM dd, yyyy형식이다.
             Pattern timeMatcher = Pattern.complie(
                 "\\d*:\\d*:\\d*\\w*,\\w*\\d*,\\d*")
@@ -83,7 +83,7 @@ last_modified_at: 2020-12-15 23:00:00
                 WikiPagePath ab = PathParser.parse("pageA.pageB);
                 WikiPagePath b = PathParser.parse("pageB);
                 ...
-
+        
                 assertTrue(a.compareTo(a) == 0) // a == a
                 assertTrue(a.compareTo(b) != 0) // a !=b
                 ....
@@ -144,7 +144,7 @@ last_modified_at: 2020-12-15 23:00:00
         ```
     - 있으나 마나 한 주석(무서운 잡음 내용과 비슷 Javadocs에서 있으나 마나한 북붙 주석...이 존재)
         ```
-
+        
             /**
             * 기본 생성자
             */
@@ -176,9 +176,9 @@ last_modified_at: 2020-12-15 23:00:00
                     }
                 }
             }
-
+        
             -> refactoring 한다. 짜증을 낼 시간에 마지막 부분을 독자적인 함수로 묶어내야 한다.
-
+        
             private void startSending()
             {
                 try
@@ -194,7 +194,7 @@ last_modified_at: 2020-12-15 23:00:00
                     addExceptionAndCloseResponse(e)
                 }
             }
-
+        
             private void addExceptionAndCloseResponse(Exception e)
             {
                 try
@@ -204,7 +204,7 @@ last_modified_at: 2020-12-15 23:00:00
                 }
                 catch(Exception e1)
                 {
-
+        
                 }
             }
         ```
@@ -229,12 +229,12 @@ last_modified_at: 2020-12-15 23:00:00
                     }
                     catch(Exception e)
                     {
-
+        
                     }
                 }
                 else
                 {
-
+        
                 }
                 .... 
             }// while
@@ -249,7 +249,7 @@ last_modified_at: 2020-12-15 23:00:00
     - 전역정보
         - 코드에는 관련한 내용만 달자, 기본 전역 값을 써 놓을 필요는 없다.
         ```
-
+        
             /**
             * 사용하는 포트정보 : 기본값은 3309
             */
@@ -262,7 +262,7 @@ last_modified_at: 2020-12-15 23:00:00
         - 역사나 관련없는 내용 쓰지 말아라
         - 아래 예시는 base64를 인코딩/디코딩 하는 함수에서 존재하는 주석인데, RFC 2045말고는 불필요한 정보다...
         ```
-
+        
             /*
                 RFC 2045 : Multipurpose Internet Mail Extension (MIME)
                 1부 : 인터넷 메시지 본체 형식

@@ -1,10 +1,10 @@
 ---
 title: "[Postgresql] Intro postresql settings with spring boot JPA"
 categories:
-    - sql
+    - Sql
 tags:
-    - postgresql
-    - base-setting
+    - Postgresql
+    - Base-setting
     - JPA
 last_modified_at: 2020-12-14 23:00:00
 ---
@@ -28,7 +28,7 @@ last_modified_at: 2020-12-14 23:00:00
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
+    
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -45,14 +45,14 @@ last_modified_at: 2020-12-14 23:00:00
         ```
             //terminal
             sudo vim /etc/postresql/13/main/postgresql.conf
-
+        
             #listen_address = "localhost" -> listen_address = "*"
         ```
         2. Adding line about allowing outside access postgresql
         ```
             //terminal
             sudo vim /etc/postgresql/13/main/pg_hba.conf
-
+        
             //adding this contents on most bottom
             host    all     all     0.0.0.0/0       trust // this allows all outside user access postgresql
         ```
@@ -66,7 +66,7 @@ last_modified_at: 2020-12-14 23:00:00
         ```
             // application.properties
             spring.jpa.hibernate.ddl-auto=update
-
+        
             // setting model Id
             @GeneratedValue(strategy = GenerationType.IDENTITY)
         ```
@@ -76,7 +76,7 @@ last_modified_at: 2020-12-14 23:00:00
             // correcting postgresql primary key sequence
             // 시퀀스 키가 동기화되지 않으면 이슈가 발생
             select setval('playerbasicinfo_id_seq',(select max(id) from playerbasicinfo));
-
+        
             // table key setting
             AUTO_INCREMENT PRIMARY KEY
         ```

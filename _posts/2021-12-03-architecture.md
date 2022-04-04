@@ -1,10 +1,10 @@
 ---
 title: "사용자 수에 따른 규모 확장성"
 categories:
-  - architecture
+  - Architecture
 
 tags:
-  - architecture
+  - Architecture
 ---
 
 1. Web layer should be stateless

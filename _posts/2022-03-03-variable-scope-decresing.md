@@ -4,7 +4,7 @@ categories:
   - Kotlin
 
 tags:
-  - effective Kotlin
+  - Effective Kotlin
 ---
 
 ## ***[item 2] 변수의 스코프를 줄이자***

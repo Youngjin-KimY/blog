@@ -1,14 +1,14 @@
 ---
 title: "[CleanCode] form(형식맞추기)"
 categories:
-    - cleanCode
+    - CleanCode
 tags:
-    - form
+    - Form
 last_modified_at: 2020-12-16 23:00:00
 ---
 # *CleanCode, comment*
 
-#### CleanCode 후가입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
+#### CleanCode 후기입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
 ***형식을 맞추는 방법은...?***
 
 1. 형식을 맞추는 목적
@@ -47,11 +47,11 @@ last_modified_at: 2020-12-16 23:00:00
             ```
 
             위의 코드는 다 붙여놔서 한눈에 안들어 온다.
-
+            
             ```
                 import lombok.NoArgsConstructor;
                 import java.util.function.BinaryOperator;
-
+            
                 @NoArgsConstructor
                 public class Calculator {
                     public long add(int a, int b)
@@ -59,13 +59,13 @@ last_modified_at: 2020-12-16 23:00:00
                         BinaryOperator<Integer> fff = (c,d) -> c+d;
                         return fff.apply(a,b);
                     }
-
+            
                     public long minus(int a, int b)
                     {
                         BinaryOperator<Integer> fff = (c,d) -> c-d;
                         return fff.apply(a,b);
                     }
-
+            
                     public long multiply(Integer ...args)
                     {
                         long ret = 1;
@@ -93,9 +93,9 @@ last_modified_at: 2020-12-16 23:00:00
                 */
                 private List<Property> properties = new ArrayList<>();
             }
-
+        
             -> 이것보다는
-
+        
             public class Student
             {
                 private String name;
@@ -119,7 +119,7 @@ last_modified_at: 2020-12-16 23:00:00
                     static public void assetTrue(boolean condition){
                         assertTrue(null, condition);
                     }
-
+            
                     static public void assertTrue(String message, boolean condition){
                         if(!condition)
                             fail(message);
@@ -142,7 +142,7 @@ last_modified_at: 2020-12-16 23:00:00
                     private Socket      socket;
                     private Inpustream  input;
                     ...
-
+            
                     public FitNesseExpediter(Socket s, FitNesseContext context) throws Exception
                     {
                         this.context =          context;

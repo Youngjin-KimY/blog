@@ -1,9 +1,9 @@
 ---
 title: "[Problem solving] Roman to Integer"
 categories:
-    - ps
+    - Ps
 tags:
-    - math
+    - Math
 last_modified_at: 2020-12-16 23:00:00
 ---
 ***usually I solve problems in leetcode***

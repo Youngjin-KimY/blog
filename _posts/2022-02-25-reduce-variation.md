@@ -4,7 +4,7 @@ categories:
   - Kotlin
 
 tags:
-  - effective Kotlin
+  - Effective Kotlin
 ---
 
 ## ***[item 1] 가변성 제한***

@@ -1,7 +1,7 @@
 ---
 title: "[OOP] Differences Between Interface and Abstract Class"
 categories:
-    - dev
+    - Top
 tags:
     - Interface
     - Abstract Class
