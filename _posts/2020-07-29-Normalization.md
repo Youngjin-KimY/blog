@@ -1,5 +1,5 @@
 ---
-title: "정규화와 속도사이에서"
+title: "[Optimization] 정규화와 속도사이에서"
 categories:
   - Dev
 tags:

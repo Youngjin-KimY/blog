@@ -1,11 +1,10 @@
 ---
-title: 2020-02-11-DailyNote in workspace
+title: "[Daily note] 2020-02-11-DailyNote in workspace"
 last_modified_at: 2020-02-11 20:48:00
 categories : 
     - Daily
 tags :
     - workspace
-
 ---
 1. git commit rule
     - one commit = one deployment

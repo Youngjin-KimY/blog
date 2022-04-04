@@ -1,5 +1,5 @@
 ---
-title: "Singleton Pattern"
+title: "[Design pattern] Singleton Pattern"
 
 categories:
     - Design Pattern
