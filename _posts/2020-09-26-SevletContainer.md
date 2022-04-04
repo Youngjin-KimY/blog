@@ -13,6 +13,12 @@ last_modified_at: 2020-09-26 23:00:00
 
 #### these day I have to study spring boot and java, I did study about java servlet container....
 
+this is briefly summary.
+
+![Screenshot 2022-04-04 at 12.16.49 PM](/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/Screenshot 2022-04-04 at 12.16.49 PM.png)
+
+
+
 just I write good article link.
 
 https://www.programcreek.com/2013/04/what-is-servlet-container/
