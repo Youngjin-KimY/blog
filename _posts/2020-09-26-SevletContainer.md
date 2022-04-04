@@ -15,7 +15,7 @@ last_modified_at: 2020-09-26 23:00:00
 
 this is briefly summary.
 
-![Screenshot 2022-04-04 at 12.16.49 PM](/Users/timyjkim/workspace/Youngjin-KimY.github.io/assets/images/Screenshot 2022-04-04 at 12.16.49 PM.png)
+![Screenshot 2022-04-04 at 12.16.49 PM](https://github.com/Youngjin-KimY/Youngjin-KimY.github.io/blob/main/assets/images/Screenshot%202022-04-04%20at%2012.16.49%20PM.png?raw=true)
 
 
 
