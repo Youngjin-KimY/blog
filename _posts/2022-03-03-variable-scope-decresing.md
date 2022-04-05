@@ -1,5 +1,5 @@
 ---
-title: [Kotlin] 변수의 스코프를 줄이자
+title: "[Kotlin] 변수의 스코프를 줄이자"
 categories:
   - Kotlin
 

@@ -1,5 +1,5 @@
 ---
-title: [Kotlin] 가변성 제한
+title: "[Kotlin] 가변성 제한"
 categories:
   - Kotlin
 
