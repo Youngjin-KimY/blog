@@ -1,13 +1,11 @@
 ---
-title: item-1 가변성 제한
+title: [Kotlin] 가변성 제한
 categories:
   - Kotlin
 
 tags:
   - Effective Kotlin
 ---
-
-## ***[item 1] 가변성 제한***
 
 - var보다는 val을 사용하는 것이 좋다.
 

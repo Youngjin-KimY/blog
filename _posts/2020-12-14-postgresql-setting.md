@@ -8,8 +8,6 @@ tags:
     - JPA
 last_modified_at: 2020-12-14 23:00:00
 ---
-# *postgresql setting with spring boot JPA*
-
 ***I decided to use postgresql as my db, this is my first postgresql setting experience description***
 
 1. Reason to writing

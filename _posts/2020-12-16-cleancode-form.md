@@ -6,8 +6,6 @@ tags:
     - Form
 last_modified_at: 2020-12-16 23:00:00
 ---
-# *CleanCode, comment*
-
 #### CleanCode 후기입니다. 오늘부터 이후 몇주가 로버트C.마틴의 클린코드 독후감을 연재합니다.  <br>
 ***형식을 맞추는 방법은...?***
 

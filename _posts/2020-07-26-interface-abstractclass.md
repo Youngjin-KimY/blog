@@ -7,7 +7,7 @@ tags:
     - Abstract Class
 last_modified_at: 2020-07-26 23:00:00
 ---
-# *Interface VS Abstract Class*
+### *Interface VS Abstract Class*
 
 
 ### Last week, I made test code with Interface. Suddenly I wanted to check differences between Interface and Abstract Class  <br>

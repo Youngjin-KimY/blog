@@ -6,8 +6,6 @@ tags:
     - Math
 last_modified_at: 2020-12-14 23:00:00
 ---
-# *Problem solving*
-
 ***usually I solve problems in leetcode***
 ### powerOfThree  <br>
 
