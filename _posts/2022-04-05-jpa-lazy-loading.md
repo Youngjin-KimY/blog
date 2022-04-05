@@ -1,5 +1,5 @@
 ---
-title: [Jpa] Sql join, Lazy loading and EntityGraph
+title: "[Jpa] Sql join, Lazy loading and EntityGraph"
 categories:
   - Jpa
 
