@@ -1,13 +1,11 @@
 ---
-title: item-2 변수의 스코프를 줄이자
+title: "[Kotlin] 변수의 스코프를 줄이자"
 categories:
   - Kotlin
 
 tags:
   - Effective Kotlin
 ---
-
-## ***[item 2] 변수의 스코프를 줄이자***
 
 - 상태를 정의할 때는 변수와 프로퍼티의 스코프를 최소화 하자
 

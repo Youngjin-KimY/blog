@@ -1,5 +1,5 @@
 ---
-title: git upstream
+title: "[Git] Git upstream"
 categories:
   - Git
 

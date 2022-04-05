@@ -8,8 +8,6 @@ tags:
     - Undefined
 ---
 
-# Null and Undefined in JavaScript
-
 ### In my dailyLife, usually I code server-side code, but sometime I am not front-end engineer, I encounter problem of jquery of raw javascript. <br>
 
 especially, I saw `undefined` error. usally I encountered this error, when API in server send the data, between name of property in class or entity from server and front are diffence. so solution is very easy, which making name of each side same.<br>
