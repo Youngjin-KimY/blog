@@ -1,10 +1,10 @@
 ---
 title: "계략적인 규모 추정하기"
 categories:
-  - architecture
+  - Architecture
 
 tags:
-  - datascale
+  - Datascale
 ---
 
 1. 2의 제곱으로 데이터 사이즈 확인하기

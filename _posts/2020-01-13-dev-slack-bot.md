@@ -1,5 +1,5 @@
 ---
-title: "[Developing] Growing Slackbot"
+title: "[Developing] Developing Slackbot"
 last_modified_at: 2020-01-13 21:00:00
 categories:
     - Dev
@@ -8,7 +8,7 @@ tags:
     - Bot
 ---
 
-# Deveoloping SlackBot
+##### Deveoloping SlackBot
 
 prerequite
 - Python3 : langauge
