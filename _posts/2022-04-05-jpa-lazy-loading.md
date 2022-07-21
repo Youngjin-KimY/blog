@@ -95,7 +95,7 @@ public class Team extends BaseTimeEntity{
 
 5. N+1문제를 해결하기 위해서, 한방 쿼리가 필요하다!!!
 
-   1. 사실 jpa를 쓰지 않고, 단순 mapper를 사용하던 곳에서는 sp를 이용해서 한반 쿼리를 사용하곤했다.
+   1. 사실 jpa를 쓰지 않고, 단순 mapper를 사용하던 곳에서는 sp를 이용해서 한방 쿼리를 사용하곤했다.
 
    2. How?
 
