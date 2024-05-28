@@ -1,5 +1,5 @@
 ---
-title: "2306 한국 남자 국가대표 명단"
+title: "24년 06월 한국 남자 축구 국가대표 명단"
 categories:
   - soccer
   - football
