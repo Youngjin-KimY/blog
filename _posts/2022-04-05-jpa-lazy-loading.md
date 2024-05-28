@@ -19,7 +19,7 @@ tags:
    		2. 실제로 해당 객체가 필요할 때, `select` 쿼리로 가져온다.
 
 2. 실제 예시로 한번 알아보자.
-   1. 아래와 같은 entity relation이 있다고 생각해보자.<img src="../assets/images/onetomany.png?raw=true" alt="image-20220210122316921" style="zoom:" />
+   1. 아래와 같은 entity relation이 있다고 생각해보자.<img src="https://github.com/Youngjin-KimY/Youngjin-KimY.github.io/blob/main/assets/images/onetomany.png?raw=true" alt="image-20220210122316921" style="zoom:" />
 
 3. class 설정은 아래와 같다.
 

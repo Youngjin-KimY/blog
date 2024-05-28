@@ -11,7 +11,7 @@ tags:
 
 ### 2024 06 남자 축구 국가대표팀 명단
 
-<img src="../assets/images/international-a-man-2405.png?raw=true" alt="image-20220210122316921" style="zoom:" />
+<img src="https://github.com/Youngjin-KimY/Youngjin-KimY.github.io/blob/main/assets/images/international-a-man-2405.png?raw=true" alt="image-20220210122316921" style="zoom:" />
 
 ​																		  출처: KFA공식 사이트
 
