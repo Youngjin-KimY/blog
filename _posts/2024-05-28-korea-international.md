@@ -1,11 +1,11 @@
 ---
 title: "24년 06월 한국 남자 축구 국가대표 명단"
 categories:
-  - soccer
-  - football
+  - Soccer
+  - Football
 
 tags:
-  - korea man's international football team
+  - Korea man's international football team
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "객체지향 프로그래밍을 향해"
 categories:
-  - Book "Object"
+  - Book-Object
 
 tags:
   - OOP

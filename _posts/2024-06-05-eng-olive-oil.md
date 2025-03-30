@@ -1,12 +1,12 @@
 ---
 title: "[Ingredient] Olive Oil"
 categories:
-  - ingredient
-  - health
+  - Ingredient
+  - Health
 tags:
-  - olive Oil
-  - health
-  - mediterranean
+  - Olive Oil
+  - Health
+  - Mediterranean
 ---
 
 # Today’s Topic is Olive Oil.
