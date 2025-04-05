@@ -7,4 +7,5 @@ gem "google-protobuf", "~> 3.25.5"
 gem "webrick", "~> 1.8.2"
 gem "uri", "~> 0.13.2"
 gem "bundler"
-
+gem "tzinfo-data"
+gem "bigdecimal"

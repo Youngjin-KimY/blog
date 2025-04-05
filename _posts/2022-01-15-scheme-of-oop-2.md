@@ -1,7 +1,7 @@
 ---
 title: "역할, 책임, 협력"
 categories:
-  - Book "Object"
+  - Book-Object
 
 tags:
   - OOP
