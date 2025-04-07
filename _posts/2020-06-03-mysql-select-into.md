@@ -1,11 +1,7 @@
 ---
+layout: post
 title: "[Sql] SELECT * INTO"
-
-categories:
-    - Sql
-
-tags:
-    - Mssql
+tags: [ mssql, sql ]
 last_modified_at: 2020-06-03T12:15:00
 ---
 

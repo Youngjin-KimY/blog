@@ -1,10 +1,7 @@
 ---
+layout: post
 title: "[OOP] Differences Between Interface and Abstract Class"
-categories:
-    - Top
-tags:
-    - Interface
-    - Abstract Class
+tags: [ interface, abstract-class]
 last_modified_at: 2020-07-26 23:00:00
 ---
 ### *Interface VS Abstract Class*

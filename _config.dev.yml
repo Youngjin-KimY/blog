@@ -1,0 +1,4 @@
+url: ""  # 로컬에서 경로가 루트로 시작하도록
+baseurl: ""
+avatar: /avatar.jpeg
+cover_image: /bg.jpeg
