@@ -8,3 +8,20 @@ math: true
 ---
 
 # Overflow happens everywhere
+
+> 'a' is start index of search space, 'b' is end index of that. In this time, I need to get middle idx of search space.
+I uses following equations.
+>
+>- (b + a) % 2
+>
+> Do you know this equation have a problem?
+>  
+> overflow !! You can easily miss the overflow problem.
+
+Is there other equation to lower overflow problem?
+that is
+> a + ((b - a) % 2)
+
+> this equations is same with first one and not intuitive but more safe than first one.
+
+>this equation is adopted and spread by Joshua Bloch (author of Effective Java) in 2006.
