@@ -1,8 +1,8 @@
 ---
 title: "[Jekyll] Admin page"
 layout: post
-date: '2025-06-09 13:00:00'
-last_modified_at: 2025-06-09 13:00 +0900
+date: '2025-06-09 00:00:00'
+last_modified_at: 2025-06-09 12:00 +0900
 tags:
 - admin
 - jekyll
