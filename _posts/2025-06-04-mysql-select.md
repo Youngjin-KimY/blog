@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[Sql] SELECT * INTO"
-tags: [ mssql, sql ]
-last_modified_at: 2020-06-03T12:15:00
+title: "[Sql] SELECT"
+tags: [ mysql, mariadb, sql ]
+last_modified_at: 2025-06-04T12:15:00
 ---
 
 ## Daily notes 2020/06/03
-
+## update 2025/06/04
 
 ### I had a quest. 
 the quest migrate data of A table, so I had to make backup table in backup database.<br>
@@ -20,3 +20,11 @@ after Searching and asking, I got solution, which is below query.<br>
 
 the query create #tmp table with all row of A.
 
+
+```sql
+select * from ...
+```
+
+Do you know `select` has `lock` ?
+- shared lock
+- gap lock
