@@ -30,7 +30,7 @@
         <span class="hero__eyebrow">Latest-first technical writing</span>
         <h1>Notes that still make sense after studying.</h1>
         <p>
-          A personal blog about algorithms, lightweight kubernates, Ai-agent, backend details, refactors, and the implementation
+          A personal blog about algorithms, lightweight kubernetes, Ai-agent, backend details, refactors, and the implementation
           details that are easy to forget once the task is over.
         </p>
         <div class="hero__actions">
