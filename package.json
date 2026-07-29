@@ -34,6 +34,7 @@
     "remark-rehype": "^11.1.2",
     "svelte": "^5.55.8",
     "svelte-check": "^4.4.8",
+    "type-fest": "^5.8.0",
     "typescript": "^6.0.3",
     "unified": "^11.0.5",
     "vite": "^6.4.2"

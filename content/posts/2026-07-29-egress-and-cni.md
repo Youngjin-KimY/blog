@@ -20,7 +20,19 @@ Below is my high-level architecture for controlling the egress traffic path usin
 
 Here are the primary advantages of this approach:
 ```mermaid
+%%{
+init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#ffffff",
+    "clusterBkg": "#f5f5f5",
+    "clusterBorder": "#999999",
+    "lineColor": "#333333"
+  }
+}
+}%%
 flowchart TB
+subgraph k3s
     subgraph BuildNode["Build Node (e.g. desktop-amd.lan)"]
         direction TB
         Pod["Woodpecker Build Pod"]
@@ -55,13 +67,15 @@ flowchart TB
     Network --> NIC2
     SquidFilter -->|Allowed Domain| Internet["🌐 External Internet<br/>(github.com, npmjs.org, etc.)"]
     SquidFilter -->|Blocked Domain| ProxyDrop["⛔ 403 Forbidden Response"]
-
+end
     style CiliumBPF fill:#f96,stroke:#333,stroke-width:2px
     style FlannelCNI fill:#69f,stroke:#333
     style Drop fill:#f33,stroke:#900,color:#fff
     style SquidPod fill:#f9c,stroke:#333,stroke-width:2px
     style ProxyDrop fill:#d9534f,stroke:#900,color:#fff
     style Internet fill:#5cb85c,stroke:#333,color:#fff
+    style BuildNode fill:#f5f5f5,stroke:#888,stroke-width:2px
+    style ProxyNode fill:#f5f5f5,stroke:#888,stroke-width:2px
 ```
 Simplified Traffic Monitoring: Monitoring outbound traffic requires checking only the Squid pod.
 Access Control: Effectively blocks requests to malicious or unverified external sites.
