@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+  import mermaid from 'mermaid';
   import Seo from '$lib/components/Seo.svelte';
   import TagPill from '$lib/components/TagPill.svelte';
   import type { PostDetail } from '$lib/types/content';
@@ -8,6 +10,16 @@
   }
 
   let { post }: Props = $props();
+  onMount(() => {
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'default',
+    });
+    // DOM 안의 .language-mermaid 또는 .mermaid 클래스를 찾아 차트로 변환
+    mermaid.run({
+      querySelector: '.language-mermaid, .mermaid'
+    });
+  });
 </script>
 
 <Seo title={post.title} description={post.description} path={post.canonicalPath} type="article" />
