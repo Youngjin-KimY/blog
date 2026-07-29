@@ -17,7 +17,6 @@
     <header class="post-header">
       <span class="meta-kicker">Post</span>
       <h1 class="post-title">{post.title}</h1>
-      <p class="post-header__lede">{post.description}</p>
       <div class="post-header__footer">
         <div class="meta-row">
           <span>{post.dateLabel}</span>
