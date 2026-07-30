@@ -52,7 +52,7 @@ subgraph k3s
         VXLAN --> NIC1
     end
 
-    NIC1 -->|VXLAN Encapsulated| Network["Local LAN Network<br/>(192.168.219.x)"]
+    NIC1 -->|VXLAN Encapsulated| Network["Local LAN Network<br/>(192.168.xxx.x)"]
 
     subgraph ProxyNode["Proxy Node / Pod"]
         direction TB
